@@ -41,7 +41,7 @@ Si bien este contrato proporciona un sistema de votación básico, es importante
 
 # Pasos para compilar y desplegar el contrato en Remix
 
-# Paso 1 :
+## Paso 1 :
 
 Vaya a https://remix.ethereum.org/ . En la carpeta de contratos, encontrará algunos contratos predeterminados que Remix ya tiene por defecto.
 
@@ -53,7 +53,7 @@ Para eso, haga clic derecho en contractos, seleccione New File. Nombra nuestro a
 https://github.com/Juanda16/voting/blob/main/voting.sol
 
 
-# Paso 2 :
+## Paso 2 :
 
 Haga clic en el compilador de solidity que se encuentra a la izquierda.
 
@@ -63,7 +63,7 @@ Luego haga clic en Compilar Voting.sol
 
 Puede seleccionar Compilación automática para que nuestro contrato se compile automáticamente cuando hagamos algunos cambios.
 
-# Paso 3 :
+## Paso 3 :
 
 Después de compilar nuestro contrato, ahora es el momento de implementar nuestro contrato. Para eso, haga clic en ejecutar e implementar transacciones a la izquierda
 
