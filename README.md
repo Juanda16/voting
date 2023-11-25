@@ -1,6 +1,6 @@
 
 # Systema de votación / Smart Contract
-Este contrato inteligente implementa un sistema de votación simple donde los usuarios pueden votar por uno de los 4 candidatos: Laura, Juan, Jazmin y Ramiro.
+Este contrato inteligente implementa un sistema de votación simple donde los usuarios pueden votar por uno de los 4 candidatos: Laura, Juan, Jasmin y Ramiro.
 El contrato almacena la información de los candidatos y sus respectivos recuentos de votos.
 
 # Estructura del Contrato
@@ -15,7 +15,7 @@ Variable candidatecount: Realiza un seguimiento del número total de candidatos.
 
 Mapeo citizen: Almacena si un usuario ya ha votado. La clave es la dirección del usuario y el valor es un booleano que indica si ha votado.
 
-constructor(): Esta función se llama cuando el contrato se despliega e inicializa los cuatro candidatos predeterminados, Laura, Juan, Jazmin y Ramiro.
+constructor(): Esta función se llama cuando el contrato se despliega e inicializa los cuatro candidatos predeterminados, Laura, Juan, Jasmin y Ramiro.
 
 Función addCandidate(string memory _name): Agrega un nuevo candidato al sistema. Esta función es privada y solo se puede llamar desde dentro del contrato.
 
@@ -82,7 +82,7 @@ Si da la entrada como 1, podrá ver los detalles de nuestro primer candidato. En
 
 De igual forma, si desea obtener los datos de 
 - Laura (segunda candidata) ingrese 2.
-- Jazmin, Ingrese 3.
+- Jasmin, Ingrese 3.
 - Ramiro, Ingrese 4.
 
 Ahora, de forma predeterminada, Remix IDE nos dará 10 cuentas de prueba con 100 ethers ficticios. Juguemos ahora con esas cuentas para comprender el funcionamiento de nuestro proyecto.
