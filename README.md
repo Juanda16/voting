@@ -2,7 +2,7 @@
 https://drive.google.com/file/d/1VbgbE2kkevAgtK6232E4gJTOxFfzD916/view?usp=sharing
 
 
-# Systema de votación / Smart Contract
+# Sistema de votación / Smart Contract
 Este contrato inteligente implementa un sistema de votación simple donde los usuarios pueden votar por uno de los 4 candidatos: Laura, Juan, Jasmin y Ramiro.
 El contrato almacena la información de los candidatos y sus respectivos recuentos de votos.
 
